@@ -7,7 +7,7 @@ The docker build provides an RStudio interface where the phylogeo package is rea
 ```
 # get the iP address
 boot2docker ip
-# download and rn the phylogeo image
+# download and run the phylogeo image
 # (takes awhile the first time)
 sudo docker run -d -p 8787:8787 zachcp/phylogeo
 # visit the ipaddress at the default port
